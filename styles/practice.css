@@ -4,27 +4,43 @@
 }
 body {
     font-size: 18px;
+    text-align: center;
+    border:6px  yellow;
+
 }
+
 img { 
-    border: 6px;
     /* display: block; */
+    
     width: 30%;
+    border-radius: 90%;
+    
 }
-h1, p { 
-    /* border: 5px solid blue; */
+#image-box { 
+    text-align: center;
+    border: 6px yellow;
+    padding: 5%;
+    box-sizing: border-box;
+}
+h1,p { 
+    border: 5px solid blue;
     text-decoration-color: white;
     text-align: center;
+    padding: 20px;
+
 }
-#gospelsteps {
+fall {
+    border: 10px pink;
+}
+
+/* #gospelsteps {
     color: black;
     font-size: 24px;
     font:bold;
     text-align: left;
     
-}
-#image-box { 
-    text-align: center;
-}
+} */
+
 /* div p{
     background-color: brown;
 }

@@ -1,0 +1,20 @@
+#BIG {
+    height: 50%;
+    max-width: 100%;
+
+}
+body {
+    /* height: 50%;
+    max-width: 100%; */
+    
+    
+}
+
+#round_image1 {
+        border-radius: 80%;
+        width: 10%;
+        border-style: solid;
+        border-color: grey;
+        padding: 10% grey;
+
+    }
