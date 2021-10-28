@@ -2,8 +2,32 @@
 
 
 
+header {
+    background-color: #f7f7ff;
+    display: grid;
+    grid-template-columns: 150px auto;
+
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+}
 #hero {
     max-width: 1600px;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+#hero-box {
+    grid-column: 1/4;
+    grid-row: 1/3;
+}
+#hero-msg {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    color: white;
+}
+#hero-msg h1, #hero-msg h4 {
+    color: white;
 }
 #content {
     max-width: 1600px;
@@ -14,6 +38,8 @@
 }
 #logo_link {
     padding-top: 5px;
+    justify-self: center;
+    align-self: center;
 }
 #hero-img {
     width: 100%;
@@ -26,6 +52,7 @@ nav a {
     padding: 20px;
     /* 20px padding looks better to me */
 }
+
 .home-title {
     color: black;
     font-family: "Merienda One" , "Georgia" , Verdana;
@@ -36,8 +63,14 @@ h4 {
     color: black;
 }
 #hero-msg, h1, h4 {
-    background-color:#f4d35e ;
+    /* background-color:#f4d35e ; */
     text-align: center;
+    
+}
+#hero-msg h4 {
+    color:white;
+    /* grid-column: 2/3; */
+
 }
 .icon {
     padding-top: 10px;
@@ -78,10 +111,7 @@ body {
 h2 {
     margin: 0;
 }
-header {
-    background-color: #f7f7ff;
 
-}
 nav a:hover {
     background-color: #396E94;
     color: #f7f7ff;
