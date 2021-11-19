@@ -12,6 +12,15 @@ nav {
     display: flex;
     justify-content: space-around;
 }
+nav a {
+    text-align:center;
+    /* color: #396E94; */
+    color: white; /* for thw nav words to show better with no nav backgorund over hero */ 
+    font-size: 25px;
+    text-decoration: none;
+    padding: 20px;
+    /* 20px padding looks better to me */
+}
 #hero {
     max-width: 1600px;
     display: grid;
@@ -49,15 +58,7 @@ nav {
 #hero-img {
     width: 100%;
 }
-nav a {
-    text-align:center;
-    /* color: #396E94; */
-    color: white; /* for thw nav words to show better with no nav backgorund over hero */ 
-    font-size: 25px;
-    text-decoration: none;
-    padding: 20px;
-    /* 20px padding looks better to me */
-}
+
 
 .home-title {
     color: black;
